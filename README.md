@@ -8,7 +8,6 @@ The script will download the contents of the website to the current folder. The 
 
 ```
 wget -P . -mpck --user-agent="" -e robots=off --wait 1 -E --restrict-file-names=ascii,windows https://www.your-website-url.com/
-
 ```
 
 ### Explanation of the script
