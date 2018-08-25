@@ -2,6 +2,8 @@
 
 This project allows to take a snapshot of a website and store its contents including js, css, images, etc locally.
 
+The script will download the contents of the website to the current folder. The folder can be changed, by setting the `-P` variable to another destination, e.g., `/my/path`
+
 ## Usage
 
 ```
