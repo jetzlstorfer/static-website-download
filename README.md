@@ -6,9 +6,19 @@ The script will download the contents of the website to the current folder. The 
 
 ## Usage
 
+### Download a complete website
 ```
 wget -P . -mpck --user-agent="" -e robots=off --wait 1 -E --restrict-file-names=ascii,windows https://www.your-website-url.com/
 ```
+
+### Download / update particular files afterwars
+without all needed resources like images/css/... Basically, only download one html file.
+Please note to escape all `&` in the URL with `\&`
+```
+wget -P . --user-agent="" -e robots=off --wait 1 -E --restrict-file-names=ascii,windows https://www.your-website-url.com/
+```
+
+
 
 ### Explanation of the script
 
